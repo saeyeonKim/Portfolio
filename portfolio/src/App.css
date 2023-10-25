@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100vw;
+  background-color: #293241;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  .logoarea {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .logo{
+      color: #FBFCFF;
+      font-size: 20px;
+    }
+  }
+  .contentarea {
+    height: 100%;
+    width: 25%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    & div {
+      font-size: 20px;
+      color: #FBFCFF;
+    }
+  }
+}
